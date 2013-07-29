@@ -19,7 +19,7 @@ class Captcha_Alpha extends Captcha
 	public function generate_challenge()
 	{
 		// Complexity setting is used as character count
-		$text = text::random('distinct', max(1, Captcha::$config['complexity']));
+		$text = Text::random('distinct', max(1, Captcha::$config['complexity']));
 		
 		// Complexity setting is used as character count
 		return $text;
