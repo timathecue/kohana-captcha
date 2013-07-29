@@ -7,7 +7,7 @@
  * Note: all groups inherit and overwrite the default group.
  *
  * Group Options:
- *  type		Captcha type, e.g. basic, alpha, word, math, riddle
+ *  type		Captcha type, e.g. basic, alpha, word, math, riddle, numeric
  *  width		Width of the Captcha image
  *  height		Height of the Captcha image
  *  complexity	Difficulty level (0-10), usage depends on chosen style

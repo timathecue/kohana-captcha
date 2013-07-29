@@ -36,3 +36,4 @@ By default image-based captchas are rendered with HTML, the HTML is a very simpl
 * math
 * riddle
 * word
+* numeric
